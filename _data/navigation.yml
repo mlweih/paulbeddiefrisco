@@ -1,0 +1,8 @@
+- name: Blog
+  link: /blog/
+- name: About
+  link: /about/
+- name: Case Studies
+  link: /studies/
+- name: Contact
+  link: /contact/
