@@ -5,25 +5,41 @@
 	transition: .2s ease-in-out;
 	display: inline-block;
 	padding: 16px 50px;
-	background: #fff;
+	background: #f1f0ec;
 }
 
 .button a:hover, input[type=submit]:hover {
 	background: $brand-color;
-	color: #fff;
+	color: #f1f0ec;
 	cursor: pointer;
 }
 
 .button.alt a {
 	background: rgba(255,255,255,0);
 	border: 2px solid rgba(255, 255, 255, 1);
-	color: #fff;
+	color: #f1f0ec;
+	letter-spacing: .07em;
+	font-size: 1.25em;
 }
 
 .button.alt a:hover {
-	background: #fff;
+	background: #f1f0ec;
 	color: $brand-color;
 	text-shadow: none;
+}
+
+.other a {
+	border-bottom: 2px solid #072612;
+	color: #072612;
+	transition: .2s ease-in-out;
+	letter-spacing: .07em;
+	font-size: 1.25em;
+}
+
+.other a:hover {
+	border-bottom: 2px solid $brand-color;
+	text-shadow: none;
+	text-decoration: none;
 }
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
