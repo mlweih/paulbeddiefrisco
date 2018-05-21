@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Frisco Template
-url: "https://brave-submarine.cloudvent.net"
+title: Sustainability Consultant
+url: "https://www.paulbeddie.com"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,15 +10,16 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: App marketing template for Jekyll.
+description: Sustainability Consultant maximizing Nature + People + Technology
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Paul Beddie
+  email: paul.beddie@isity.global
+  twitter: paulbeddie
+    # twitter username without the @ symbol
 social:
-  name: Frisco Template
+  name: Paul Beddie
   links:
-    - https://github.com/CloudCannon/frisco-jekyll-template
+    - https://www.twitter.com/paulbeddie
 
 # -----
 # Build
