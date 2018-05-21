@@ -45,6 +45,7 @@
 
 .image {
 	text-align: center;
+	margin-top: 1.75em;
 }
 
 .bottom-cta {
@@ -59,7 +60,7 @@
 	color: #ffffff;
 	background-color: #555555;
 	text-align: center;
-	height: 20vh;
+	/*height: 20vh;*/
 	min-height: 250px;
 	margin-bottom: 100px;
 }
@@ -73,6 +74,7 @@
 .quote-text-container {
 	width: 600px;
 	text-align: left;
+	margin-top: 100px;
 
 	h1, h2, p, .button {
 		text-shadow: 1px 1px 1px rgba(0,0,0,.8);
