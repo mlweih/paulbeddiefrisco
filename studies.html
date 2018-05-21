@@ -1,14 +1,14 @@
 ---
 title: Case Studies
-description: Info about Paul's Case Studies
+description: Case Studies and Sustainability Projects from Paul Beddie
 image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
 ---
 
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">Study Choices</h1>
-			<p class="subtext editable">Really cool projects Paul has worked on and wants to share with you.</p>
+			<h1 class="editable">A Collection of Case Studies</h1>
+			<p class="subtext editable">Project references I have worked on as a Sustainability Leader and Management Consultant.</p>
 		</div>
 	</div>
 </section>
@@ -20,8 +20,8 @@ image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
 			{% for person in site.staff_members %}
 				<li>
 					<div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
-					<div class="name"><a target="_blank" href="{{ person.twitter_username }}">{{ person.name }}</a></div>
-					<div class="position">{{ person.position }}</div>
+					<div class="name"><a href="{{ person.twitter_username }}">{{ person.name }}</a></div>
+					<div class="position">{{ person.year }}</div>
 					<div class="position">{{person.blurb}}</div>
 				</li>
 			{% endfor %}

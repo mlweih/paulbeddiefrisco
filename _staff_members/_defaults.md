@@ -1,6 +1,6 @@
 ---
 name:
-position:
+year:
 image_path:
 twitter_username:
 blurb:
