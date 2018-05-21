@@ -1,8 +1,8 @@
 footer {
 	font-size: .6em;
 	position: relative;
-	background: #2b2b40;
-	color: #fff;
+	background: #040303;
+	color: #f1f0ec;
 
 	&,
 	a {
@@ -14,7 +14,7 @@ footer {
 		padding: 0 10px;
 
 		&:hover {
-			color: #fff;
+			color: #25ce60;
 		}
 	}
 
@@ -90,9 +90,11 @@ footer {
 .copyright {
 	margin: 15px auto;
 	float: left;
+	color: #4c5454;
 
 	a {
 		color: #999;
+		padding: 0 0;
 	}
 
 	@media #{$desktop} {
