@@ -1,6 +1,6 @@
 ---
 title: Contact
-description: Send us a message to find out more!
+description: Send Paul a message to find out more!
 map:
   latitude: -45.8787605
   longitude: 170.5027976
@@ -13,13 +13,20 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 			<h1 class="editable">Get in touch today</h1>
-			<p class="subtext editable">If you have any questions or queries send us a message and we'll get back to you as soon as we can.</p>
+			<p class="subtext editable">If you have any questions or queries send Paul a message and we'll get back to you as soon as we can.</p>
 		</div>
 	</div>
 </section>
 
 <section class="pad">
 	<div class="text-container contact-box">
+    <div class="hire">
+    <h2>Hire Paul</h2>
+    <p>
+      The kind of work that Paul Beddie does, and the kind of clients he's looking to take on at the moment. The kind of work that Paul Beddie does, and the kind of clients he's looking to take on at the moment. The kind of work that Paul Beddie does, and the kind of clients he's looking to take on at the moment. The kind of work that Paul Beddie does, and the kind of clients he's looking to take on at the moment.
+    </p>
+    </div>
+    <h2>Contact Paul</h2>
 		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
 			<input type="hidden" name="_to" value="support@cloudcannon.com">
 			<input type="text" name="_gotcha" style="display: none;">
@@ -37,11 +44,18 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 		</form>
 
 		<div class="contact-details">
-			<h3>Address</h3>
-			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
+      <h3>Social Media</h3>
+      <p class="editable">
+        <a href="http://www.linkedin.com">Paul Beddie</a><br />
+        <a href="http://www.twitter.com/paulbeddie">@paulbeddie</a><br />
+        <a href="http://www.instagra.com/paul_beddie">@paul_beddie</a>
+      </p>
 
-			<h3>Email</h3>
-			<p class="editable"><a href="mailto:support@example.com">support@example.com</a></p>
+      <h3>Email</h3>
+      <p class="editable"><a href="mailto:paulbeddie@isity.global">paulbeddie@isity.global</a></p>
+
+      <h3>Address</h3>
+			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
 		</div>
 	</div>
 </section>
