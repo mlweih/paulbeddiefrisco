@@ -47,7 +47,7 @@ header {
 			color: #333;
 			@media #{$mid-point} {
 				&:hover {
-					border-bottom-color: rgba(80, 80, 80,.3);
+					border-bottom-color: #306fff;
 					border-bottom-width: 5px;
 				}
 			}
@@ -79,7 +79,7 @@ header {
 
 		&:hover {
 			text-decoration: none;
-			border-bottom: 2px solid #25CE60;
+			border-bottom: 2px solid #306fff;
 		}
 	}
 
@@ -103,7 +103,7 @@ header {
 }
 
 .info {
-	padding: 0 0 100px 0;
+	padding: 0 0 50px 0;
 
 	&:first-child {
 		padding-top: 100px;
@@ -121,10 +121,6 @@ header {
 
 .page h2 {
 	text-align: center;
-}
-
-.hire p{
-	padding-bottom: 40px;
 }
 
 blockquote {

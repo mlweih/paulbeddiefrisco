@@ -3,6 +3,10 @@ _site/
 .jekyll-metadata
 
 
+Bright Blue: #306fff, rgba(48, 11, 255, 1);
+Darker blue: #3e598d
+very dark blue: #161b27;
+orange: #f7b556, rgba(247, 181, 86, 1);
 
 ******* To Do ******
 
@@ -10,7 +14,6 @@ GENERAL
   - Dark Logo
   - Light Logo
   - Header BKGD
-  - Update Fonts
   - Update Brand Colors
   - Edit Paul's photos
   - Update Title-- in config file, must restart jekyll to see updates

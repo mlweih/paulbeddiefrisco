@@ -1,6 +1,6 @@
 left_links:
-  - name: Case Studies
-    link: /studies/
+  - name: The Future of Work
+    link: /futureofwork/
   - name: About
     link: /about/
   - name: Blog
@@ -20,6 +20,3 @@ right_links:
     link: https://www.instagram.com/paul_beddie
     social_icon: Instagram
     new_window: true
-  - name:
-    link: /feed.xml
-    social_icon: RSS

@@ -56,13 +56,32 @@
 	}
 }
 
-.quote {
+.testimonial {
 	color: #ffffff;
-	background-color: #555555;
+	background-color: #3e598d;
 	text-align: center;
 	/*height: 20vh;*/
 	min-height: 250px;
 	margin-bottom: 100px;
+
+	h3{
+		font-family: 'Lato';
+		font-size: 1.75em;
+	}
+
+	h4{
+		font-size: 1.25em;
+		letter-spacing: .1em;
+	}
+}
+
+.quote {
+	color: #ffffff;
+	background-color: #306fff;
+	text-align: center;
+	/*height: 20vh;*/
+	min-height: 250px;
+	margin-bottom: 50px;
 }
 
 .inner-quote {
