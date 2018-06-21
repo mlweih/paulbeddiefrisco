@@ -3,7 +3,15 @@ _site/
 .jekyll-metadata
 
 
-Green:
+Bright Green: #6bff00;
+Mid Green: #67af33
+Dk Grn: #4f9120
+bkgd brown: #0f0a05;
+
+Bright yellow Green: b6ff00;
+Mid yellow Green: #8aaf2e
+dk yellow green: 658e01
+
 
 Bright Blue: #306fff, rgba(48, 11, 255, 1);
 Darker blue: #3e598d
