@@ -3,6 +3,8 @@ _site/
 .jekyll-metadata
 
 
+Green:
+
 Bright Blue: #306fff, rgba(48, 11, 255, 1);
 Darker blue: #3e598d
 very dark blue: #161b27;
@@ -17,11 +19,12 @@ GENERAL
   - Update Brand Colors
   - Edit Paul's photos
   - Update Title-- in config file, must restart jekyll to see updates
+  - Google Analytics???
+  - Update Title to match FutureMax
 
 HOME PAGE
 
 CASE STUDIES
-  - Fix footer on Case Studies
 
 FUTURE OF WORK
   - Create Page!
@@ -39,4 +42,3 @@ ABOUT
    - Isity and Personal content?
 
 CONTACT
-  - Add Social Media Icons
