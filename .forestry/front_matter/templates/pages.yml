@@ -1,0 +1,51 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: default
+- name: image
+  label: Image
+  type: field_group
+  fields:
+  - name: width
+    label: Width
+    type: text
+    hidden: false
+    default: ''
+  - name: height
+    label: Height
+    type: text
+    hidden: false
+    default: ''
+  - name: resize_style
+    label: Resize style
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
+- name: bottom_image
+  label: Bottom image
+  type: field_group
+  fields:
+  - name: width
+    label: Width
+    type: text
+    hidden: false
+    default: ''
+  - name: height
+    label: Height
+    type: text
+    hidden: false
+    default: ''
+  - name: resize_style
+    label: Resize style
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
