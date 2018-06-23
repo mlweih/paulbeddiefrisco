@@ -1,42 +1,63 @@
 ---
 title: Case Studies
 description: Case Studies and Sustainability Projects from FutureMax
-image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
 ---
 
-<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+<section class="hero" style="background-image: url({{ site.baseurl }}/images/singapore_bkgd_2000.jpg)">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">A Collection of Case Studies</h1>
-			<p class="subtext editable">Project references I have worked on as a Sustainability Leader and Management Consultant.</p>
+			<h1 class="editable">Case Studies</h1>
+			<p class="subtext editable">Sustainability and Management consultant Engagements that FutureMax as has delivered.</p>
 		</div>
 	</div>
 </section>
 
 <div class="content">
-	<section class="info" id="learn-more">
+	<section class="info pad">
+		<div class="text-container contact-box">
+	    <h2>A Collection of Work</h2>
+	    <p>
+	      FutureMax believes that sustainability, when maximised through nature, people and technology, achieves great outcomes and makes a significant impact. The first step of this is building great working relationships. We love seeing the changes that can be created and the results that bring a smile to a CEO and their team when a vision is realised. A couple of projects we have worked on are:
+	    </p>
+		</div>
+	</section>
+
+	<section class="info">
 		<div class="container flex">
 			<div class="text">
-				<h2 class="editable">A Collection of Case Studies</h2>
-				<p class="editable">
-					Examples of the kind of engagements that FutureMax and Paul Beddie as a Sustainability Leader and Management Consultant have delivered. Experiences have ranged from Strategy and Business Case Development through to holistic design, Engineering, Integration and Operations services.
+				<h2 class="editable">A Diversified US Technology and Manufacturing company</h2>
+				<p class="editable">The client was under government pressure to eliminate fugitive VOC emissions from chemical process equipment in a very short time.  The solution we gave was a custom set of interventions including VOC monitoring, physical barriers and reconfigured exhaust ducting. The result was  an average 93% reduction in fugitive VOCs achieved in less than three months along with other results.
 				</p>
+			</div>
+			<div class="image">
+				<img class="editable" src="http://placehold.it/650x1300" alt="" />
 			</div>
 		</div>
 	</section>
 
-<section class="pad">
-	<div class="container">
-		<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Manage Case Studies</a></p>
-		<ul class="staff">
-			{% for person in site.staff_members %}
-				<li>
-					<div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
-					<div class="name"><a href="{{ person.twitter_username }}">{{ person.name }}</a></div>
-					<div class="position">{{ person.year }}</div>
-					<div class="position">{{person.blurb}}</div>
-				</li>
-			{% endfor %}
-		</ul>
-	</div>
-</section>
+	<section class="info">
+		<div class="container flex">
+			<div class="text">
+				<h2 class="editable">German/Japanese Healthcare Leader</h2>
+				<p class="editable">The client wanted a holistic and integrated building improvement and wellness program for its Asia HQ. It was decided to undertake a significant upgrade of the facility including the creation of the primary Asia training facilities for the client’s end customers. The solution was to create a holistic and integrated building improvement program, using smart building and sustainability technology, to improve the client’s facility across a wide range of measurable areas. The cost savings from the energy and facility management initiatives subsidized the indoor environment and IT initiatives and provided an attractive payback for the whole program along with many other great results.
+				</p>
+			</div>
+			<div class="image">
+				<img class="editable" src="http://placehold.it/650x1300" alt="" />
+			</div>
+		</div>
+	</section>
+
+	<section class="info">
+		<div class="container flex">
+			<div class="text">
+				<h2 class="editable">Large Private Equity backed Real Estate Investment Fund in Asia</h2>
+				<p class="editable">This client wanted automation of GRESB reporting, Analytics and collection of monthly utility data from multiple real estate assets located in cities across Asia. FutureMax recommend our Partner, GOBY, to provide this client with their world class SaaS solution for the annual GRESB data gathering and reporting and analysis tools. The client is expected to reduce the energy consumption of the assets included in the program by up to 4% simply through the automation and analytics of the utility data by identifying opportunities to improve building energy performance and improving their overall GRESB score in a managed and intentional manner.
+				</p>
+			</div>
+			<div class="image">
+				<img class="editable" src="{{ site.baseurl }}/images/highrise_vert_650x1300.jpg" alt="High Rise Offices" />
+			</div>
+		</div>
+	</section>
+</div>
