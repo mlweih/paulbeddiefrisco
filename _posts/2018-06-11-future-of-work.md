@@ -6,7 +6,6 @@ categories:
   - Future of Work
   - career
 image: https://images.unsplash.com/photo-1520392693677-3ca8cd22b717?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0a3db841f468e2dbb98421fedcc55904&auto=format&fit=crop&w=2550&q=80
-author_staff_member:
 ---
 
 I think I may be crazy…

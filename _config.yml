@@ -2,7 +2,7 @@
 # Site
 
 title: Sustainability Consultant
-url: "https://www.paulbeddie.com"
+url: "https://www.futuremaxinstitute.com"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,10 +10,10 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Sustainability Consultant maximizing Nature + People + Technology
+description: Sustainability Institute Maximizing Nature + People + Technology
 author:
   name: Paul Beddie
-  email: paul.beddie@isity.global
+  email: paul.beddie@futuremaxinstitute.com
   twitter: paulbeddie
     # twitter username without the @ symbol
 social:
