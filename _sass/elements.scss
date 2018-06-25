@@ -71,6 +71,10 @@ p, address, ul, ol {
 	font-family: 'Lato', sans-serif;
 }
 
+ol li ol {
+	font-size: 1em;
+}
+
 i{
 	color: #4f9120;
 	margin-right: .25em;
